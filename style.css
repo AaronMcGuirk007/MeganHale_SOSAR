@@ -44,7 +44,8 @@
     content: '';
     height: 3px;
     width: 0;
-    background: #329dee;
+    /*background: #329dee;*/
+    background: #68737c;
     position: absolute;
     left: 0;
     bottom: -10px;
