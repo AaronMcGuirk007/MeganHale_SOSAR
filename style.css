@@ -19,8 +19,12 @@
     justify-content: space-between;
 }
 .logo{
-    width: 120px;
+    width: 80px;
     cursor: pointer;
+}
+.info{
+    margin-right: 35%;
+    color: #fff;
 }
 .navbar ul li{
     list-style: none;
