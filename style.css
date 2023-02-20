@@ -45,7 +45,7 @@
     height: 3px;
     width: 0;
     /*background: #329dee;*/
-    background: #68737c;
+    background: #808c96;
     position: absolute;
     left: 0;
     bottom: -10px;
@@ -87,7 +87,8 @@ button{
 }
 
 span{
-    background: #329dee;
+    /*background: #329dee;*/
+    background: #808c96;
     height: 100%;
     width: 0;
     border-radius: 25px;
