@@ -59,7 +59,8 @@
 }
 .content{
     width: 100%;
-    position: absolute;
+    flex-basis: 30%;
+    
     top: 50%;
     transform: transplateX(-50%) translateY(-50%);
     text-align: center;
@@ -117,6 +118,7 @@ button:hover{
     width: 100%;
   }
   
+
   @media only screen and (max-width: 600px) {
     /* For tablets: */
     .banner {width: 100%;}
