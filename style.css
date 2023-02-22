@@ -30,7 +30,7 @@
     text-decoration: none;
     font-family: sans-serif;
     font-size: 15px;
-    color: #fff;
+    color: #787070;
 }
 .navbar ul li{
     list-style: none;
@@ -40,7 +40,7 @@
 }
 .navbar ul li a{
     text-decoration: none;
-    color: #fff;
+    color: #787070;
     text-transform: uppercase;
 }
 .navbar ul li::after{
@@ -48,7 +48,7 @@
     height: 3px;
     width: 0;
     /*background: #329dee;*/
-    background: #acafb1;
+    background: #787070;
     position: absolute;
     left: 0;
     bottom: -10px;
@@ -64,7 +64,7 @@
     top: 50%;
     transform: transplateX(-50%) translateY(-50%);
     text-align: center;
-    color: #fff;
+    color: #787070;
 }
 .content h1{
     font-size: 70px;
@@ -82,9 +82,9 @@ button{
     margin: 20px 10px;
     border-radius: 25px;
     font-weight: bold;
-    border: 2px solid #fff;
+    border: 2px solid #787070;
     background: transparent;
-    color: #fff;
+    color: #787070;
     cursor: pointer;
     position: relative;
     overflow: hidden;
@@ -92,7 +92,7 @@ button{
 
 span{
     /*background: #329dee;*/
-    background: #acafb1;
+    background: #787070;
     height: 100%;
     width: 0;
     border-radius: 25px;
