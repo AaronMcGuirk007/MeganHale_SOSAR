@@ -107,6 +107,8 @@ button:hover span{
 }
 button:hover{
     border: none;
+    color: #f5f1f1;
+    background-color: 787070;
 }
 
 /* For mobile phones: */
