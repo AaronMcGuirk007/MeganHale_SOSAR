@@ -36,7 +36,6 @@ html{
 .about .about-content,
 .resume .resume-content,
 .contact .contact-content{
-    display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
@@ -101,7 +100,7 @@ html{
     flex-basis: 30%;
     
     top: 50%;
-    transform: transplateX(-50%) translateY(-50%);
+    
     text-align: center;
     color: #787070;
 }
@@ -156,8 +155,18 @@ html{
     background-image: url(whitebackground.jpeg);
     background-size: cover;
     background-position: center;
+    align-items: center;
 }
 
+.events .events-content{
+    width: 100%;
+    flex-basis: 30%;
+    
+    top: 50%;
+    
+    text-align: center;
+    color: #787070;
+}
 .events .events-content h1{
     font-size: 70px;
     margin-top: 80px;
@@ -209,6 +218,60 @@ html{
     background-image: url(whitebackground.jpeg);
     background-size: cover;
     background-position: center;
+    align-items: center;
+}
+
+.about .about-content{
+    width: 100%;
+    flex-basis: 30%;
+    
+    top: 50%;
+    
+    text-align: center;
+    color: #787070;
+}
+.about .about-content h1{
+    font-size: 70px;
+    margin-top: 80px;
+}
+.about .about-content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+.about .about-content button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #787070;
+    background: transparent;
+    color: #787070;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.about .about-content span{
+    background: #787070;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+.about .about-content button:hover span{
+    width: 100%;
+}
+.about .about-content button:hover{
+    border: none;
+    color: #f5f1f1;
+    background-color: 787070;
 }
 
 /* Resume Section Styling */
@@ -218,6 +281,60 @@ html{
     background-image: url(whitebackground.jpeg);
     background-size: cover;
     background-position: center;
+    align-items: center;
+}
+
+.resume .resume-content{
+    width: 100%;
+    flex-basis: 30%;
+    
+    top: 50%;
+    
+    text-align: center;
+    color: #787070;
+}
+.resume .resume-content h1{
+    font-size: 70px;
+    margin-top: 80px;
+}
+.resume .resume-content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+.resume .resume-content button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #787070;
+    background: transparent;
+    color: #787070;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.resume .resume-content span{
+    background: #787070;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+.resume .resume-content button:hover span{
+    width: 100%;
+}
+.resume .resume-content button:hover{
+    border: none;
+    color: #f5f1f1;
+    background-color: 787070;
 }
 
 /* Contact Section Styling */
@@ -227,6 +344,59 @@ html{
     background-image: url(whitebackground.jpeg);
     background-size: cover;
     background-position: center;
+}
+
+.contact .contact-content{
+    width: 100%;
+    flex-basis: 30%;
+    
+    top: 50%;
+    
+    text-align: center;
+    color: #787070;
+}
+.contact .contact-content h1{
+    font-size: 70px;
+    margin-top: 80px;
+}
+.contact .contact-content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+.contact .contact-content button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #787070;
+    background: transparent;
+    color: #787070;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.contact .contact-content span{
+    background: #787070;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+.contact .contact-content button:hover span{
+    width: 100%;
+}
+.contact .contact-content button:hover{
+    border: none;
+    color: #f5f1f1;
+    background-color: 787070;
 }
 
 /* For mobile phones: */
