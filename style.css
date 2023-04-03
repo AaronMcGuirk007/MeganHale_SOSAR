@@ -94,7 +94,9 @@ html{
 .navbar ul li:hover::after{
     width: 100%;
 }
-.content{
+
+/* Home Section Styling */
+.home .home-content{
     width: 100%;
     flex-basis: 30%;
     
@@ -103,16 +105,16 @@ html{
     text-align: center;
     color: #787070;
 }
-.content h1{
+.home .home-content h1{
     font-size: 70px;
     margin-top: 80px;
 }
-.content p{
+.home .home-content p{
     margin: 20px auto;
     font-weight: 100;
     line-height: 25px;
 }
-button{
+.home .home-content button{
     width: 200px;
     padding: 15px 0;
     text-align: center;
@@ -127,7 +129,7 @@ button{
     overflow: hidden;
 }
 
-span{
+.home .home-content span{
     background: #787070;
     height: 100%;
     width: 0;
@@ -138,15 +140,16 @@ span{
     z-index: -1;
     transition: 0.5s;
 }
-button:hover span{
+.home .home-content button:hover span{
     width: 100%;
 }
-button:hover{
+.home .home-content button:hover{
     border: none;
     color: #f5f1f1;
     background-color: 787070;
 }
 
+/* Events Section Styling */
 .events {
     width: 100%;
     height: 100vh;
@@ -155,6 +158,51 @@ button:hover{
     background-position: center;
 }
 
+.events .events-content h1{
+    font-size: 70px;
+    margin-top: 80px;
+}
+.events .events-content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+.events .events-content button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #787070;
+    background: transparent;
+    color: #787070;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.events .events-content span{
+    background: #787070;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+.events .events-content button:hover span{
+    width: 100%;
+}
+.events .events-content button:hover{
+    border: none;
+    color: #f5f1f1;
+    background-color: 787070;
+}
+
+/* About Section Styling */
 .about {
     width: 100%;
     height: 100vh;
@@ -163,6 +211,7 @@ button:hover{
     background-position: center;
 }
 
+/* Resume Section Styling */
 .resume {
     width: 100%;
     height: 100vh;
@@ -171,6 +220,7 @@ button:hover{
     background-position: center;
 }
 
+/* Contact Section Styling */
 .contact {
     width: 100%;
     height: 100vh;
