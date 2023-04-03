@@ -128,7 +128,6 @@ button{
 }
 
 span{
-    /*background: #329dee;*/
     background: #787070;
     height: 100%;
     width: 0;
@@ -150,26 +149,34 @@ button:hover{
 
 .events {
     width: 100%;
-    height: 100%;
-    background-image: url("whitebackground.jpeg");
+    height: 100vh;
+    background-image: url(whitebackground.jpeg);
+    background-size: cover;
+    background-position: center;
 }
 
 .about {
     width: 100%;
-    height: 100%;
-    background-image: url("whitebackground.jpeg");
+    height: 100vh;
+    background-image: url(whitebackground.jpeg);
+    background-size: cover;
+    background-position: center;
 }
 
 .resume {
     width: 100%;
-    height: 100%;
-    background-image: url("whitebackground.jpeg");
+    height: 100vh;
+    background-image: url(whitebackground.jpeg);
+    background-size: cover;
+    background-position: center;
 }
 
 .contact {
     width: 100%;
-    height: 100%;
-    background-image: url("whitebackground.jpeg");
+    height: 100vh;
+    background-image: url(whitebackground.jpeg);
+    background-size: cover;
+    background-position: center;
 }
 
 /* For mobile phones: */
