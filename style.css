@@ -61,7 +61,6 @@ html{
     width: 80px;
     cursor: pointer;
     flex-basis: 5%
-
 }
 .info{
     flex: auto;
@@ -86,7 +85,6 @@ html{
     content: '';
     height: 3px;
     width: 0;
-    /*background: #329dee;*/
     background: #787070;
     position: absolute;
     left: 0;
@@ -148,6 +146,30 @@ button:hover{
     border: none;
     color: #f5f1f1;
     background-color: 787070;
+}
+
+.events {
+    width: 100%;
+    height: 100%;
+    background-image: url("whitebackground.jpeg");
+}
+
+.about {
+    width: 100%;
+    height: 100%;
+    background-image: url("whitebackground.jpeg");
+}
+
+.resume {
+    width: 100%;
+    height: 100%;
+    background-image: url("whitebackground.jpeg");
+}
+
+.contact {
+    width: 100%;
+    height: 100%;
+    background-image: url("whitebackground.jpeg");
 }
 
 /* For mobile phones: */
