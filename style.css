@@ -26,10 +26,11 @@ html{
     background: #555;
 }
 
+
 /* all similar content styling codes */
 .max-width{
     max-width: 1300px;
-    padding: 0 80px;
+    width: auto;
     margin: auto;
 }
 
@@ -106,21 +107,22 @@ footer span a:hover{
     transition: 0.5s;
 }
 .navbar ul li:hover::after{
+    display: flex;
     width: 100%;
 }
 
 /* Home Section Styling */
 .home {
+    width: 100%;
+    background-image: url(src/img/background.jpg);
     background-size: cover;
     background-position: center;
     align-items: center;
 }
+
 .home .home-content{
-    width: 100%;
     flex-basis: 30%;
-    
     top: 50%;
-    
     text-align: center;
     color: #787070;
 }
@@ -135,54 +137,25 @@ footer span a:hover{
     line-height: 25px;
     padding-top: 25;
 }
-.home .home-content button{
-    width: 200px;
-    padding: 15px 0;
-    text-align: center;
-    margin: 20px 10px;
-    border-radius: 25px;
-    font-weight: bold;
-    border: 2px solid #787070;
-    background: transparent;
-    color: #787070;
-    cursor: pointer;
-    position: relative;
-    overflow: hidden;
-}
-
-.home .home-content span{
-    background: #787070;
-    height: 100%;
-    width: 0;
-    border-radius: 25px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    z-index: -1;
-    transition: 0.5s;
-}
-.home .home-content button:hover span{
-    width: 100%;
-}
-.home .home-content button:hover{
-    border: none;
-    color: #f5f1f1;
-    background-color: 787070;
-}
 
 /* About Section Styling */
 .about {
+    width: 100%;
     background-image: url(src/img/background.jpg);
     background-size: cover;
     background-position: center;
     align-items: center;
 }
 
+.about iframe{
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+
 .about .about-content{
-    width: 100%;
-    flex-basis: 30%;
-    
-    top: 50%;
+    margin: auto;
+    width: 80%;
     
     text-align: center;
     color: #787070;
@@ -191,223 +164,12 @@ footer span a:hover{
     font-size: 70px;
 }
 .about .about-content p{
-    margin: 20px auto;
+    margin: auto;
     font-weight: 100;
     line-height: 25px;
 }
-.about .about-content button{
-    width: 200px;
-    padding: 15px 0;
-    text-align: center;
-    margin: 20px 10px;
-    border-radius: 25px;
-    font-weight: bold;
-    border: 2px solid #787070;
-    background: transparent;
-    color: #787070;
-    cursor: pointer;
-    position: relative;
-    overflow: hidden;
-}
 
-.about .about-content span{
-    background: #787070;
-    height: 100%;
-    width: 0;
-    border-radius: 25px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    z-index: -1;
-    transition: 0.5s;
-}
-.about .about-content button:hover span{
-    width: 100%;
-}
-.about .about-content button:hover{
-    border: none;
-    color: #f5f1f1;
-    background-color: 787070;
-}
 
-/* Events Section Styling */
-.events {
-    background-image: url(src/img/background.jpg);
-    background-size: cover;
-    background-position: center;
-    align-items: center;
-}
-
-.events .events-content{
-    width: 100%;
-    flex-basis: 30%;
-    
-    top: 50%;
-    
-    text-align: center;
-    color: #787070;
-}
-.events .events-content h1{
-    font-size: 70px;
-}
-.events .events-content p{
-    margin: 20px auto;
-    font-weight: 100;
-    line-height: 25px;
-}
-.events .events-content button{
-    width: 200px;
-    padding: 15px 0;
-    text-align: center;
-    margin: 20px 10px;
-    border-radius: 25px;
-    font-weight: bold;
-    border: 2px solid #787070;
-    background: transparent;
-    color: #787070;
-    cursor: pointer;
-    position: relative;
-    overflow: hidden;
-}
-
-.events .events-content span{
-    background: #787070;
-    height: 100%;
-    width: 0;
-    border-radius: 25px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    z-index: -1;
-    transition: 0.5s;
-}
-.events .events-content button:hover span{
-    width: 100%;
-}
-.events .events-content button:hover{
-    border: none;
-    color: #f5f1f1;
-    background-color: 787070;
-}
-
-/* Gallery Section Styling */
-.gallery {
-    background-image: url(src/img/background.jpg);
-    background-size: cover;
-    background-position: center;
-    align-items: center;
-}
-
-.gallery .gallery-content{
-    width: 100%;
-    flex-basis: 30%;
-    
-    top: 50%;
-    
-    text-align: center;
-    color: #787070;
-}
-.gallery .gallery-content h1{
-    font-size: 70px;
-}
-.gallery .gallery-content p{
-    margin: 20px auto;
-    font-weight: 100;
-    line-height: 25px;
-}
-.gallery .gallery-content button{
-    width: 200px;
-    padding: 15px 0;
-    text-align: center;
-    margin: 20px 10px;
-    border-radius: 25px;
-    font-weight: bold;
-    border: 2px solid #787070;
-    background: transparent;
-    color: #787070;
-    cursor: pointer;
-    position: relative;
-    overflow: hidden;
-}
-
-.gallery .gallery-content span{
-    background: #787070;
-    height: 100%;
-    width: 0;
-    border-radius: 25px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    z-index: -1;
-    transition: 0.5s;
-}
-.gallery .gallery-content button:hover span{
-    width: 100%;
-}
-.gallery .gallery-content button:hover{
-    border: none;
-    color: #f5f1f1;
-    background-color: 787070;
-}
-
-/* Contact Section Styling */
-.contact {
-    background-image: url(src/img/background.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-.contact .contact-content{
-    width: 100%;
-    flex-basis: 30%;
-    
-    top: 50%;
-    
-    text-align: center;
-    color: #787070;
-}
-.contact .contact-content h1{
-    font-size: 70px;
-}
-.contact .contact-content p{
-    margin: 20px auto;
-    font-weight: 100;
-    line-height: 25px;
-}
-.contact .contact-content button{
-    width: 200px;
-    padding: 15px 0;
-    text-align: center;
-    margin: 20px 10px;
-    border-radius: 25px;
-    font-weight: bold;
-    border: 2px solid #787070;
-    background: transparent;
-    color: #787070;
-    cursor: pointer;
-    position: relative;
-    overflow: hidden;
-}
-
-.contact .contact-content span{
-    background: #787070;
-    height: 100%;
-    width: 0;
-    border-radius: 25px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    z-index: -1;
-    transition: 0.5s;
-}
-.contact .contact-content button:hover span{
-    width: 100%;
-}
-.contact .contact-content button:hover{
-    border: none;
-    color: #f5f1f1;
-    background-color: 787070;
-}
 
 /* For mobile phones: */
 [class = "banner"] {
