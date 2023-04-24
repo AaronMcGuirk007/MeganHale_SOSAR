@@ -47,19 +47,15 @@ footer span a{
 footer span a:hover{
     text-decoration: underline;
 }
-.banner .logo, .info{
-    margin-top: 10px;
-    margin-left: 45%;
-}
-.logo{
-    padding-top: 30px;
-    padding-left: 23px;
+.banner .logo{
+    text-align: center;
     width: 80px;
     cursor: pointer;
-    flex-basis: 5%;
-    float: top;
+    margin-left: 47%;
 }
-.info{
+
+.banner .info{
+    
     margin-left: 0%;
     flex: auto;
     text-decoration: none;
@@ -123,20 +119,12 @@ footer span a:hover{
 }
 
 
-
-/* For mobile phones: */
-[class = "banner"] {
-    width: 100%;
-  }
-  /* For mobile phones: */
-[class = "content"] {
-    width: 100%;
-  }
   
 
   @media only screen and (max-width: 600px) {
     /* For tablets: */
     .banner {width: 100%;}
+    .banner .logo{margin-left: 42%;}
   }
   @media only screen and (max-width: 600px) {
     /* For tablets: */
@@ -146,6 +134,7 @@ footer span a:hover{
   @media only screen and (max-width: 768px) {
 
     .banner {width: 100%;}
+    .banner .logo{margin-left: 42%;}
   }
 
   @media only screen and (max-width: 768px) {
