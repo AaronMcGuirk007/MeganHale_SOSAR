@@ -47,23 +47,60 @@ footer span a{
 footer span a:hover{
     text-decoration: underline;
 }
-.banner .logo{
+.banner .navbar .logo{
+    margin-top: 20px;
+    align-content: center;
+    align-items: center;
     text-align: center;
     width: 80px;
     cursor: pointer;
-    margin-left: 47%;
+    float: middle;
 }
 
-.banner .info{
-    
-    margin-left: 0%;
+.banner .navbar .info, .logo{
+    margin: auto;
+    align-items: center;
     flex: auto;
     text-decoration: none;
     font-family: sans-serif;
     font-size: 15px;
     color: #111;
-    float: bottom;
+    float: middle;
     text-align: center;
+}
+
+.banner .navbar .links-left{
+    margin-left: 10%;
+    float: left;
+    align-items: start;
+    display: inline;
+}
+
+.banner .navbar .links-right{
+    margin-right: 10%;
+    float: right;
+    align-items: end;
+    display: inline;
+}
+
+.banner .navbar a {
+    display: inline-block;
+    background: #3768b7;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-family: sans-serif;
+    border-radius: 10px;
+    border: 2px solid #3768b7;
+    transition: all 0.3s ease;
+ 
+}
+
+.banner .navbar a:hover{
+    color: #3768b7;
+    background: none;
 }
 
 /* Home Section Styling */
@@ -119,12 +156,93 @@ footer span a:hover{
 }
 
 
-  
+@media only screen and (max-width: 320px) {
+    /* For tablets: */
+    .banner {width: 100%;}
+    .banner .logo{margin-left: 42%;}
+    .home-content iframe{
+        width: 70%;
+        height: 30%;
+    }
+    .banner .navbar a{
+        float: middle;
+        align-items: center;
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+        font-size: 8px;
+    }
+    .banner .navbar .links-left, .links-right{
+        float: middle;
+        align-items: center;
+        text-align: center;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+  }
+
+@media only screen and (max-width: 400px) {
+    /* For tablets: */
+    .banner {width: 100%;}
+    .banner .logo{margin-left: 42%;}
+    .home-content iframe{
+        width: 70%;
+        height: 30%;
+    }
+    .banner .navbar a{
+        float: middle;
+        align-items: center;
+        text-align: center;
+        margin-left: 0%;
+        margin-right: 0%;
+        font-size: 10px;
+    }
+    .banner .navbar .links-left, .links-right{
+        float: middle;
+        align-items: center;
+        text-align: center;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .banner .navbar .logo{
+        text-align: center;
+        align-items: center;
+        float: middle;
+        margin: auto;
+    }
+  }
+
+  @media only screen and (max-width: 414px) {
+    /* For tablets: */
+    .banner {width: 100%;}
+    
+    .home-content iframe{
+        width: 70%;
+        height: 30%;
+    }
+    .banner .navbar a{
+        float: middle;
+        align-items: center;
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .banner .navbar .links-left{
+        margin-left: 30px;
+        align-items: center;
+        text-align: center;
+        float: middle;
+    }
+  }
 
   @media only screen and (max-width: 600px) {
     /* For tablets: */
     .banner {width: 100%;}
-    .banner .logo{margin-left: 42%;}
+    .home-content iframe{
+        width: 70%;
+        height: 30%;
+    }
+   
   }
   @media only screen and (max-width: 600px) {
     /* For tablets: */
@@ -134,10 +252,17 @@ footer span a:hover{
   @media only screen and (max-width: 768px) {
 
     .banner {width: 100%;}
-    .banner .logo{margin-left: 42%;}
+    .home-content iframe{
+        width: 90%;
+        height: 35%;
+    }
   }
 
   @media only screen and (max-width: 768px) {
     /* For desktop: */
     .content {width: 100%;}
+    .banner .navbar a{
+       
+        font-size: 10px;
+    }
   }
