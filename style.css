@@ -371,3 +371,7 @@ a {
     border-radius: 10px;
     margin: 10px auto;
 }
+
+#center{
+    text-align: center;
+}
