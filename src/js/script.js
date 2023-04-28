@@ -1,7 +1,9 @@
-const loaderContainer = document.querySelector('.loader-container');
+window.addEventListener("load", () => {
+    const loader = document.querySelector(".loader");
 
-window.addEventListener('load', () => {
-    window.addEventListener('load', () => {
-        loaderContainer.style.display = 'none';
-    });
-});
+    loader.classList.add("loader-hidden");
+
+    loader.addEventListener("transitioned", () => {
+        document.body.removeChild("loader");
+    })
+})
