@@ -1,4 +1,4 @@
-# CSIS410 Megan Hale Website Final Team Project
+# CSIS415 Megan Hale Website Final Team Project
 Developed by: Aaron McGuirk, Brenna Valle, Ethan Bartlett, Paul Brouilette, Trevor Collins
 >This websites demonstrates the understanding of:
 >* HTML, CSS, etc
